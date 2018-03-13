@@ -1,9 +1,9 @@
-# provider "azurerm" {
-#   subscription_id = "${var.subscription_id}"
-#   client_id       = "${var.client_id}"
-#   client_secret   = "${var.client_secret}"
-#   tenant_id       = "${var.tenant_id}"
-# }
+provider "azurerm" {
+  subscription_id = "60081d84-4b2a-4898-a5e4-e92a79a4698a"
+  client_id       = "31d41b38-0e10-4de4-b7b8-e962d64cf935"
+  client_secret   = "ARgH2dWHA/KCKJY4erU1hnc1wWy/fgLl3xOM8g4+Elc="
+  tenant_id       = "adec1867-08f6-4ff8-9472-7f045a43667a"
+ }
 
 resource "azurerm_resource_group" "rg" {
   name     = "${var.resource_group}"
